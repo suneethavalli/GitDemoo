@@ -12,6 +12,7 @@ public class TwoTest extends Base{
 		System.out.println("TestTwo");
 		 driver = intializeDriver();
 		driver.get("http://tutorialsninja.com/demo/");
+		System.out.println("the browser got opened");
 		Thread.sleep(2000);
 		driver.close();
 		
